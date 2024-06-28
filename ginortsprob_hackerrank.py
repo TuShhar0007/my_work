@@ -1,8 +1,6 @@
-""" finally ye hua bc itni der lagi isse likhne mei dimag chhod diya bc ek band ne ek line mei krdiya tha ye code bc kaise
-print("".join(sorted(list(input()),key= lambda x : (-x.islower() ,-x.isupper(), int(x) % 2 == 0 if x.isdigit() else None,x)))) 
-bc kaise aakhir kaar kaise"""
+""" one liner answer for following question
+print("".join(sorted(list(input()),key= lambda x : (-x.islower() ,-x.isupper(), int(x) % 2 == 0 if x.isdigit() else None,x)))) """
 # ginorts problem qeustion hacker rank
-
 
 s = input()
 c = list(s)
